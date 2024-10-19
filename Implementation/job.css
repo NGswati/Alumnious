@@ -1,0 +1,56 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.search-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #e31d1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.job {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.job h2 {
+    margin-top: 0;
+}
+
+.job p {
+    margin-bottom: 5px;
+}
+
+.job-post-form input[type="text"],
+.job-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.job-post-form button {
+    padding: 10px 20px;
+    background-color: #e31d1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
