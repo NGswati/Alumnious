@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alumni Registration</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Alumni Registration</h1>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="graduation-year">Graduation Year</label>
+                <input type="number" id="graduation-year" name="graduation-year" required>
+            </div>
+            <div class="form-group">
+                <label for="major">Major</label>
+                <input type="text" id="major" name="major" required>
+            </div>
+            <div class="form-group">
+                <label for="employment">Employment History</label>
+                <textarea id="employment" name="employment" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="additional-data">Additional Data</label>
+                <textarea id="additional-data" name="additional-data"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="profile-image">Profile Image</label>
+                <input type="file" id="profile-image" name="profile-image">
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="regitration.js"></script>
+</body>
+
+</html>
